@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #ffe4d6;
   font-family: "Roboto" sans-serif;
   margin: 0;
   height: 100vh;
@@ -12,4 +13,52 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  width: 500px;
+  padding: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+label {
+  font-size: 17px;
+  font-weight: 900;
+  text-align: center;
+  color: #b0578d;
+}
+
+textarea {
+  border: 1px solid #facbea;
+  width: 100%;
+  height: 100px;
+  display: block;
+  font-family: inherit;
+  font-size: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #fdf0f0;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.tag {
+  margin: 5px;
+  background-color: #facbea;
+  border: 1px solid #a9a9a9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.tag.highlight {
+  color: #fff;
+  background: #b0578d;
 }
