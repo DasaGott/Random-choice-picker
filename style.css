@@ -63,3 +63,9 @@ textarea:focus {
   color: #fff;
   background: #b0578d;
 }
+
+@media only screen and (max-width: 675px) {
+  .container {
+    max-width: 100%;
+  }
+}
